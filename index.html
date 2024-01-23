@@ -42,7 +42,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
               </svg>
             </div>
-            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 w-52">
+            <ul tabindex="0" class="menu menu-sm bg-slate-500 flex flex-col items-center rounded-xl dropdown-content mt-3 z-[1] p-2 w-52">
               <li class="text-[#424247]"><a>Home</a></li>
               <li class="text-[#424247]"><a>About</a></li>
               <li class="text-[#424247]"><a>Page</a></li>
@@ -184,39 +184,255 @@
       <p class="max-w-xl text-center mx-auto mt-3 pb-8 text-[#1313189f]">Explore our diverse program sections, each tailored to enhance your hockey journey. Find your perfect fit.</p>
       </div>
       <!-- --------------------Programme card-------------- -->
-      <div class="grid gap-5 grid-cols-1 lg:grid-cols-2">
+      <div class="grid gap-5 w-full grid-cols-1 lg:grid-cols-2">
         <!--------------------Programme Card 1----------------->
-          <div class="card lg:px-10 image-full">
+          <div class="card image-full">
             <figure><img src="Images/2.png" alt="Hockistic" /></figure>
             <div class="card-body">
-              <h2 class="card-title pt-24">Join Programme</h2>
-              <p class="max-w-md">Embark on your hockey journey and join our program. Unlock opportunities for skill development, camaraderie, and a passion-driven community. Let's play together!</p>
-              <a class="bg-[#FF4240] py-3 px-4 lg:py-4 lg:px-6 w-fit text-xl text-white font-extrabold rounded-lg cursor-pointer">Register Now!</a>
+              <h2 class="card-title pt-24 text-white font-extrabold text-3xl">Join Programme</h2>
+              <p class="max-w-md text-white">Embark on your hockey journey and join our program. Unlock opportunities for skill development, camaraderie, and a passion-driven community. Let's play together!</p>
+              <a class="bg-[#FF4240] py-3 px-4 mt-5 lg:py-4 lg:px-6 w-fit text-xl text-white font-extrabold rounded-lg cursor-pointer">Register Now!</a>
             </div>
           </div>
         <!--------------------Programme Card 2----------------->
-          <div class="card lg:px-10 image-full">
-            <figure><img src="Images/3.png" alt="Hockistic" class="object-fill" /></figure>
+          <div class="card image-full">
+            <figure><img src="Images/3.png" alt="Hockistic" class="object-fill " /></figure>
             <div class="card-body">
-              <h2 class="card-title pt-24">Teenager Program </h2>
-              <p class="max-w-md">Empower the next generation of hockey stars with our Teenager Program. Tailored for growth, skills, and camaraderie—fueling passion on and off the ice.</p>
+              <h2 class="card-title pt-24 text-white font-extrabold text-3xl">Teenager Program </h2>
+              <p class="max-w-md text-white">Empower the next generation of hockey stars with our Teenager Program. Tailored for growth, skills, and camaraderie—fueling passion on and off the ice.</p>
               <a class="bg-[#FF4240] py-3 px-4 mt-5 lg:py-4 lg:px-6 w-fit text-xl text-white font-extrabold rounded-lg cursor-pointer">Register Now!</a>
             </div>
           </div>
         <!--------------------Programme Card 3----------------->
-          <div class="card lg:px-10 image-full lg:col-span-2">
+          <div class="card image-full lg:col-span-2 before:bg-opacity-40">
             <figure><img src="Images/4.png" alt="Hockistic" class="object-fill" /></figure>
             <div class="card-body">
-              <h2 class="card-title pt-24">Professional Program</h2>
-              <p class="max-w-md">Elevate your game with our Professional Program. Designed for elite athletes, it offers specialized training, strategic insights, and a path to excellence.</p>
-              <a class="bg-[#FF4240] py-3 px-4 mt-5 lg:py-4 lg:px-6 w-fit text-xl text-white font-extrabold rounded-lg cursor-pointer">Register Now!</a>
+              <h2 class="card-title pt-24 text-white font-extrabold text-3xl">Professional Program</h2>
+              <p class="max-w-md flex-grow-0 text-white">Elevate your game with our Professional Program. Designed for elite athletes, it offers specialized training, strategic insights, and a path to excellence.</p>
+              <a class="bg-[#FF4240] py-3 px-4 mt-5  lg:py-4 lg:px-6 w-fit text-xl text-white font-extrabold rounded-lg cursor-pointer">Register Now!</a>
             </div>
           </div>
       </div>
     </section>
+    <!-----------------------------------Our Product Section--------------------->
+    <section class="mb-24">
+      <div class="border-y-2 border-dashed mb-12">
+        <h2 class="text-4xl font-extrabold text-center text-[#131318]  pt-8">Our New Products</h2>
+      <p class="max-w-xl text-center mx-auto mt-3 pb-8 text-[#1313189f]">Explore our new products, carefully crafted and designed to elevate your hockey experience.</p>
+      </div>
+      <!---------------------------------- Product container------------------------ -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <!---------------------------------Product card 1--------------------------- -->
+        <div class="border-2 border-slate-300 rounded-xl lg:max-h-56 p-4 lg:p-6 grid grid-cols-1 lg:grid-cols-3">
+          <div class="lg:col-span-1 mb-4 flex items-center mx-auto h-fit">
+            <img src="Images/5.png" alt="Player jacket" class="w-full">
+          </div>
+          <div class="lg:col-span-2">
+            <!--------------------------Rating part---------------------------->
+            <div class="flex gap-5 items-center pl-3">
+              <div class="flex gap-2 items-center">
+                <i class="fa-solid fa-star text-amber-500"></i>
+                <h2 class="text-[#131318]">5.0</h2>
+              </div>
+              <div class="flex gap-2 items-center">
+                <i class="fa-regular fa-eye text-[#131318]"></i>
+                <h2 class="text-[#131318]">20</h2>
+              </div>
+              <div class="flex gap-2 items-center">
+                <i class="fa-regular fa-heart text-[#131318]"></i>
+                <h2 class="text-[#131318]">200</h2>
+              </div>
+            </div>
+            <!--------------------------Product Body--------------------------->
+            <div class="card">
+              <div class="card-body px-4 py-2">
+                <h2 class="card-title text-xl font-extrabold -pl-4">World Cup Men's Kit</h2>
+                <p class="text-[#131318]">Elevate Your Game with Our Amazing Men's Hockey Kit</p>
+                <div class="card-actions flex justify-between pt-4">
+                  <h2 class="font-extrabold text-[#FF4240]">Price - $22.00</h2>
+                  <h2 class=" text-[#131318]"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---------------------------------Product card 2--------------------------- -->
+        <div class="border-2 border-slate-300 rounded-xl lg:max-h-56 p-4 lg:p-6 grid grid-cols-1 lg:grid-cols-3">
+          <div class="lg:col-span-1 mb-4 flex items-center mx-auto h-fit">
+            <img src="Images/6.png" alt="" class="w-full">
+          </div>
+          <div class="lg:col-span-2">
+            <!--------------------------Rating part---------------------------->
+            <div class="flex gap-5 items-center pl-3">
+              <div class="flex gap-2 items-center">
+                <i class="fa-solid fa-star text-amber-500"></i>
+                <h2 class="text-[#131318]">5.0</h2>
+              </div>
+              <div class="flex gap-2 items-center">
+                <i class="fa-regular fa-eye text-[#131318]"></i>
+                <h2 class="text-[#131318]">20</h2>
+              </div>
+              <div class="flex gap-2 items-center">
+                <i class="fa-regular fa-heart text-[#131318]"></i>
+                <h2 class="text-[#131318]">200</h2>
+              </div>
+            </div>
+            <!--------------------------Product Body--------------------------->
+            <div class="card">
+              <div class="card-body px-4 py-2">
+                <h2 class="card-title text-xl font-extrabold -pl-4">World Cup Men's Kit</h2>
+                <p class="text-[#131318]">Elevate Your Game with Our Amazing Men's Hockey Kit</p>
+                <div class="card-actions flex justify-between pt-4">
+                  <h2 class="font-extrabold text-[#FF4240]">Price - $22.00</h2>
+                  <h2 class=" text-[#131318]"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---------------------------------Product card 3--------------------------- -->
+        <div class="border-2 border-slate-300 rounded-xl lg:max-h-56 p-4 lg:p-6 grid grid-cols-1 lg:grid-cols-3">
+          <div class="lg:col-span-1 mb-4 flex items-center mx-auto h-fit">
+            <img src="Images/7.png" alt="" class="w-full">
+          </div>
+          <div class="lg:col-span-2">
+            <!--------------------------Rating part---------------------------->
+            <div class="flex gap-5 items-center pl-3">
+              <div class="flex gap-2 items-center">
+                <i class="fa-solid fa-star text-amber-500"></i>
+                <h2 class="text-[#131318]">5.0</h2>
+              </div>
+              <div class="flex gap-2 items-center">
+                <i class="fa-regular fa-eye text-[#131318]"></i>
+                <h2 class="text-[#131318]">20</h2>
+              </div>
+              <div class="flex gap-2 items-center">
+                <i class="fa-regular fa-heart text-[#131318]"></i>
+                <h2 class="text-[#131318]">200</h2>
+              </div>
+            </div>
+            <!--------------------------Product Body--------------------------->
+            <div class="card">
+              <div class="card-body px-4 py-2">
+                <h2 class="card-title text-xl font-extrabold -pl-4">Cap For Hockeys</h2>
+                <p class="text-[#131318]">Elevate Your Game with Our Amazing Men's Hockey Kit</p>
+                <div class="card-actions flex justify-between pt-4">
+                  <h2 class="font-extrabold text-[#FF4240]">Price - $22.00</h2>
+                  <h2 class=" text-[#131318]"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---------------------------------Product card 4--------------------------- -->
+        <div class="border-2 border-slate-300 rounded-xl lg:max-h-56 p-4 lg:p-6 grid grid-cols-1 lg:grid-cols-3">
+          <div class="lg:col-span-1 mb-4 flex items-center mx-auto h-fit">
+            <img src="Images/8.png" alt="Player jacket" class="w-full">
+          </div>
+          <div class="lg:col-span-2">
+            <!--------------------------Rating part---------------------------->
+            <div class="flex gap-5 items-center pl-3">
+              <div class="flex gap-2 items-center">
+                <i class="fa-solid fa-star text-amber-500"></i>
+                <h2 class="text-[#131318]">5.0</h2>
+              </div>
+              <div class="flex gap-2 items-center">
+                <i class="fa-regular fa-eye text-[#131318]"></i>
+                <h2 class="text-[#131318]">20</h2>
+              </div>
+              <div class="flex gap-2 items-center">
+                <i class="fa-regular fa-heart text-[#131318]"></i>
+                <h2 class="text-[#131318]">200</h2>
+              </div>
+            </div>
+            <!--------------------------Product Body--------------------------->
+            <div class="card">
+              <div class="card-body px-4 py-2">
+                <h2 class="card-title text-xl font-extrabold -pl-4">World Cup Men's Kit</h2>
+                <p class="text-[#131318]">Elevate Your Game with Our Amazing Men's Hockey Kit</p>
+                <div class="card-actions flex justify-between pt-4">
+                  <h2 class="font-extrabold text-[#FF4240]">Price - $22.00</h2>
+                  <h2 class=" text-[#131318]"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---------------------------------Product card 5--------------------------- -->
+        <div class="border-2 border-slate-300 rounded-xl lg:max-h-56 p-4 lg:p-6 grid grid-cols-1 lg:grid-cols-3">
+          <div class="lg:col-span-1 mb-4 flex items-center mx-auto h-fit">
+            <img src="Images/9.png" alt="" class="w-full">
+          </div>
+          <div class="lg:col-span-2">
+            <!--------------------------Rating part---------------------------->
+            <div class="flex gap-5 items-center pl-3">
+              <div class="flex gap-2 items-center">
+                <i class="fa-solid fa-star text-amber-500"></i>
+                <h2 class="text-[#131318]">5.0</h2>
+              </div>
+              <div class="flex gap-2 items-center">
+                <i class="fa-regular fa-eye text-[#131318]"></i>
+                <h2 class="text-[#131318]">20</h2>
+              </div>
+              <div class="flex gap-2 items-center">
+                <i class="fa-regular fa-heart text-[#131318]"></i>
+                <h2 class="text-[#131318]">200</h2>
+              </div>
+            </div>
+            <!--------------------------Product Body--------------------------->
+            <div class="card">
+              <div class="card-body px-4 py-2">
+                <h2 class="card-title text-xl font-extrabold -pl-4">Helmet For keeper</h2>
+                <p class="text-[#131318]">Elevate Your Game with Our Amazing Men's Hockey Kit</p>
+                <div class="card-actions flex justify-between pt-4">
+                  <h2 class="font-extrabold text-[#FF4240]">Price - $22.00</h2>
+                  <h2 class=" text-[#131318]"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---------------------------------Product card 6--------------------------- -->
+        <div class="border-2 border-slate-300 rounded-xl lg:max-h-56 p-4 lg:p-6 grid grid-cols-1 lg:grid-cols-3">
+          <div class="lg:col-span-1 mb-4 flex items-center mx-auto h-fit">
+            <img src="Images/10.png" alt="Player jacket" class="w-full">
+          </div>
+          <div class="lg:col-span-2">
+            <!--------------------------Rating part---------------------------->
+            <div class="flex gap-5 items-center pl-3">
+              <div class="flex gap-2 items-center">
+                <i class="fa-solid fa-star text-amber-500"></i>
+                <h2 class="text-[#131318]">5.0</h2>
+              </div>
+              <div class="flex gap-2 items-center">
+                <i class="fa-regular fa-eye text-[#131318]"></i>
+                <h2 class="text-[#131318]">20</h2>
+              </div>
+              <div class="flex gap-2 items-center">
+                <i class="fa-regular fa-heart text-[#131318]"></i>
+                <h2 class="text-[#131318]">200</h2>
+              </div>
+            </div>
+            <!--------------------------Product Body--------------------------->
+            <div class="card">
+              <div class="card-body px-4 py-2">
+                <h2 class="card-title text-xl font-extrabold -pl-4">World Cup Ball</h2>
+                <p class="text-[#131318]">Elevate Your Game with Our Amazing Men's Hockey Kit</p>
+                <div class="card-actions flex justify-between pt-4">
+                  <h2 class="font-extrabold text-[#FF4240]">Price - $22.00</h2>
+                  <h2 class=" text-[#131318]"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+        
+      </div>
+    </section>
   </main>
   <footer>
-
+    
   </footer>
 </body>
 
